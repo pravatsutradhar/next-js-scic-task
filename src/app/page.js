@@ -6,15 +6,6 @@ export default function Home() {
 
   return (
     <div>
-      {/* Navbar */}
-      <nav className="p-4 bg-gray-800 text-white flex justify-between">
-        <h1 className="font-bold">My App</h1>
-        <div>
-          <Link href="/products" className="mr-4">Products</Link>
-          <Link href="/login">Login</Link>
-        </div>
-      </nav>
-
       {/* Hero Section */}
       <section className="p-10 text-center">
         <h2 className="text-3xl font-bold mb-4">Welcome to My Product App</h2>

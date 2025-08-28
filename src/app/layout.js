@@ -1,4 +1,5 @@
 import AuthProvider from "./AuthProvider";
+import Navbar from "./Navbar.client";
 import './globals.css';
 
 export const metadata = {
@@ -10,6 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+        <Navbar />
         <AuthProvider>{children}</AuthProvider>
       </body>
     </html>
