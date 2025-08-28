@@ -19,7 +19,7 @@ function NavbarContent() {
         <Link href="/">Home</Link>
         <Link href="/products" className="ml-4">Products</Link>
         {session && (
-          <Link href="/dashboard" className="ml-4">Dashboard</Link>
+          <Link href="/dashboard/add-product" className="ml-4">Dashboard</Link>
         )}
         {session ? (
           <button onClick={() => signOut()} className="ml-4">Logout</button>
